@@ -14,6 +14,7 @@
 		413D5A031F314D6900F5BBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413D5A011F314D6900F5BBC9 /* LaunchScreen.storyboard */; };
 		413D5A0E1F314D6A00F5BBC9 /* mobile_azure_pruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D5A0D1F314D6A00F5BBC9 /* mobile_azure_pruebaTests.swift */; };
 		413D5A191F314D6A00F5BBC9 /* mobile_azure_pruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D5A181F314D6A00F5BBC9 /* mobile_azure_pruebaUITests.swift */; };
+		E159C63700A138342BE936D4 /* Pods_mobile_azure_prueba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13950BAA51E243D15FA8B7FD /* Pods_mobile_azure_prueba.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13950BAA51E243D15FA8B7FD /* Pods_mobile_azure_prueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_azure_prueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8BE5ACA9AB5CBD9389B0A4 /* Pods-mobile.azure.prueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.azure.prueba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobile.azure.prueba/Pods-mobile.azure.prueba.debug.xcconfig"; sourceTree = "<group>"; };
 		413D59F51F314D6900F5BBC9 /* mobile.azure.prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile.azure.prueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		413D59F81F314D6900F5BBC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		413D59FA1F314D6900F5BBC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		413D5A141F314D6A00F5BBC9 /* mobile.azure.pruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobile.azure.pruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		413D5A181F314D6A00F5BBC9 /* mobile_azure_pruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobile_azure_pruebaUITests.swift; sourceTree = "<group>"; };
 		413D5A1A1F314D6A00F5BBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B3617D592C73679AC7D493 /* Pods-mobile.azure.prueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.azure.prueba.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobile.azure.prueba/Pods-mobile.azure.prueba.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E159C63700A138342BE936D4 /* Pods_mobile_azure_prueba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		144CCC820DC8555CA1D2D6F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13950BAA51E243D15FA8B7FD /* Pods_mobile_azure_prueba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		413D59EC1F314D6900F5BBC9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				413D5A0C1F314D6A00F5BBC9 /* mobile.azure.pruebaTests */,
 				413D5A171F314D6A00F5BBC9 /* mobile.azure.pruebaUITests */,
 				413D59F61F314D6900F5BBC9 /* Products */,
+				85FCA538727E61936ECF2649 /* Pods */,
+				144CCC820DC8555CA1D2D6F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,15 @@
 			path = mobile.azure.pruebaUITests;
 			sourceTree = "<group>";
 		};
+		85FCA538727E61936ECF2649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8BE5ACA9AB5CBD9389B0A4 /* Pods-mobile.azure.prueba.debug.xcconfig */,
+				97B3617D592C73679AC7D493 /* Pods-mobile.azure.prueba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 413D5A1D1F314D6A00F5BBC9 /* Build configuration list for PBXNativeTarget "mobile.azure.prueba" */;
 			buildPhases = (
+				6BF054E8185A24680A4F3E0A /* [CP] Check Pods Manifest.lock */,
 				413D59F11F314D6900F5BBC9 /* Sources */,
 				413D59F21F314D6900F5BBC9 /* Frameworks */,
 				413D59F31F314D6900F5BBC9 /* Resources */,
+				342060671048914791497590 /* [CP] Embed Pods Frameworks */,
+				4EDBFD0FCA626E8235C90D08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		342060671048914791497590 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobile.azure.prueba/Pods-mobile.azure.prueba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EDBFD0FCA626E8235C90D08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobile.azure.prueba/Pods-mobile.azure.prueba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF054E8185A24680A4F3E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		413D59F11F314D6900F5BBC9 /* Sources */ = {
@@ -415,6 +490,7 @@
 		};
 		413D5A1E1F314D6A00F5BBC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8BE5ACA9AB5CBD9389B0A4 /* Pods-mobile.azure.prueba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9JCVQ7M95;
@@ -428,6 +504,7 @@
 		};
 		413D5A1F1F314D6A00F5BBC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B3617D592C73679AC7D493 /* Pods-mobile.azure.prueba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9JCVQ7M95;
